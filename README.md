@@ -39,7 +39,7 @@ Locofy is an intelligent travel companion that crafts personalized travel plans 
 1. Clone the repository:  
    ```bash  
    git clone https://github.com/Abhiprameesh/LOCOFY.git 
-   cd spotly  
+   cd locofy 
    ```  
 
 2. Install dependencies:  
