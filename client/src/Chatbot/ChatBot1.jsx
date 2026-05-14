@@ -97,7 +97,7 @@ export default function ChatBot() {
         }}
       >
         <div className="bg-blue-600 p-4 text-white flex items-center">
-          <h1 className="text-xl font-bold">SpotlyLife</h1>
+          <h1 className="text-xl font-bold">LocofyLife</h1>
         </div>
 
         <div className="flex-grow p-4 space-y-3 overflow-auto">

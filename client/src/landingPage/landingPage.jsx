@@ -106,7 +106,7 @@ const CenterImage = () => {
         className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-8xl font-bold"
         style={{ opacity }}
       >
-        Spotly
+        Locofy
       </motion.div>
     </>
   );
@@ -185,7 +185,7 @@ const Schedule = () => {
           transition={{ ease: "easeInOut", duration: 0.75 }}
           className="mb-20 text-4xl font-black uppercase text-zinc-50"
         >
-          What Spotly can do for you
+          What Locofy can do for you
         </motion.h1>
         <ScheduleItem title="Know the weather forecast of your destination before you pack — rain or shine, plan right every time!" />
         <ScheduleItem title="Let our smart Itinerary Recommender create a trip tailored from your own past travel experiences." />

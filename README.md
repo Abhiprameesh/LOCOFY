@@ -23,7 +23,7 @@ Locofy is an intelligent travel companion that crafts personalized travel plans 
 
 ## 📖 How It Works  
 1. Enter your travel preferences: location, dates, trip type, and budget.  
-2. Spotly fetches real-time data using integrated APIs.  
+2. Locofy fetches real-time data using integrated APIs.  
 3. The AI crafts a personalized itinerary with recommendations for accommodations, attractions, and dining.  
 4. Use the chatbot to modify or inquire about your plans effortlessly.  
 
@@ -38,8 +38,8 @@ Locofy is an intelligent travel companion that crafts personalized travel plans 
 ### Steps  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/snehaapratap/spotly.git  
-   cd spotly  
+   git clone https://github.com/snehaapratap/locofy.git  
+   cd locofy  
    ```  
 
 2. Install dependencies:  

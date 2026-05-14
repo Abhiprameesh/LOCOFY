@@ -17,8 +17,8 @@ app.get("/ping", (req, res) => {
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin:["https://star-light-web-dev-kbea.vercel.app/"],
-    methods: ["POST", "GET"],
+    origin: ["https://star-light-web-dev-kbea.vercel.app/", "http://localhost:5173", "http://localhost:3000"],
+    methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true,
   })
 );
@@ -26,8 +26,11 @@ app.use("/auth", AuthRouter);
 app.use("/products", ProductRouter);
 
 if (process.env.NODE_ENV === "production") {
-  const dirPath = path.resolve();
-  app.use(express.static(path.join(dirPath)));
+  app.use(express.static(path.join(__dirname, "../client/dist")));
+  
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "../client/dist", "index.html"));
+  });
 }
 
 app.listen(PORT, () => {

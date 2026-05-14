@@ -169,7 +169,7 @@ const TitleSection = ({ open }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.125 }}
             >
-              <span className="block text-xxl font-semibold">SpotLy</span>
+              <span className="block text-xxl font-semibold">Locofy</span>
               <span className="block text-xs text-slate-500">Pro Planer</span>
             </motion.div>
           )}

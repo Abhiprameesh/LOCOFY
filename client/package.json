@@ -30,6 +30,7 @@
     "google-map-react": "^2.2.1",
     "leaflet": "^1.9.4",
     "lenis": "^1.1.16",
+    "locofy": "file:..",
     "lucide-react": "^0.460.0",
     "mapbox-gl": "^3.8.0",
     "maplibre-gl": "^4.7.1",
