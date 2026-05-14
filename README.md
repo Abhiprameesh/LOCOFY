@@ -48,18 +48,18 @@ Locofy is an intelligent travel companion that crafts personalized travel plans 
    ```  
 
 3. Set up environment variables:  
-   Create a `.env` file in the root directory and add:  
+   Create a `.env` file in the `server` directory and add:  
    ```env  
-   REACT_APP_RAPIDAPI_KEY=your_rapidapi_key  
-   OPENAI_API_KEY=your_openai_key  
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
    ```  
 
-4. Run the development server:  
+4. Run the development server (starts both backend and frontend):  
    ```bash  
-   npm start  
+   npm run dev  
    ```  
 
-5. Access Locofy in your browser at: `http://localhost:3000`  
+5. Access Locofy in your browser at: `http://localhost:5173`  
 
 ---
 
