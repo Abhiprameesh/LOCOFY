@@ -26,7 +26,7 @@ const CityHotelSearch = () => {
           },
           headers: {
             "x-rapidapi-key":
-              "27d3276526msh16b981be8d4e029p1fd91bjsn63d725281e6e",
+              import.meta.env.VITE_RAPIDAPI_KEY || "27d3276526msh16b981be8d4e029p1fd91bjsn63d725281e6e",
             "x-rapidapi-host": "tripadvisor-com1.p.rapidapi.com",
           },
         }

@@ -11,7 +11,7 @@ export default function ChatBot() {
   const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef(null);
 
-  const VITE_API_KEY = "AIzaSyCeJ9_qfaeSDbUhzXZnni_CAgCLci_lkhw";
+  const VITE_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || "AIzaSyCeJ9_qfaeSDbUhzXZnni_CAgCLci_lkhw";
   const genAI = new GoogleGenerativeAI(VITE_API_KEY);
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 

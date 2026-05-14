@@ -22,7 +22,7 @@ const LanguageDetection = () => {
       method: "POST",
       url: "https://google-translate1.p.rapidapi.com/language/translate/v2/detect",
       headers: {
-        "x-rapidapi-key": "bb4376584dmsh85c9ba6514ee6d9p16c1e0jsn8f5d2343a9b4",
+        "x-rapidapi-key": import.meta.env.VITE_RAPIDAPI_KEY || "bb4376584dmsh85c9ba6514ee6d9p16c1e0jsn8f5d2343a9b4",
         "x-rapidapi-host": "google-translate1.p.rapidapi.com",
         "Accept-Encoding": "application/gzip",
       },
